@@ -21,11 +21,11 @@ body_catch = {
 response_create = requests.post(url = f'{URL}/pokemons', headers = HEADER, json = body_create)
 print(response_create.text)
 
-'''response_update = requests.put(url = f'{URL}/pokemons', headers = HEADER, json = body_update)
-print(response_update.text)'''
+response_update = requests.put(url = f'{URL}/pokemons', headers = HEADER, json = body_update)
+print(response_update.text)
 
-'''response_catch = requests.post(url = f'{URL}/trainers/add_pokeball', headers = HEADER, json = body_catch)
-print(response_catch.text)'''
+response_catch = requests.post(url = f'{URL}/trainers/add_pokeball', headers = HEADER, json = body_catch)
+print(response_catch.text)
 
 message = response_create.json()['message']
 print(message) 
