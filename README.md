@@ -25,7 +25,7 @@
 2. Используется библиотека Requests
 3. Параметризированные тесты с использованием декоратора
 
-![image]()
+![image](https://raw.githubusercontent.com/chingis-mandzhiev-qa/python_autotests/main/pytest_api.png)
 
 ## Локальный запуск тестов (из терминала)
 1. Скачать проект
